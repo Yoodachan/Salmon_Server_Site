@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: skyblue;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*길다란 상단배너*/
+.top {
+ position: relative;
+ height: 90px;
+ background-color: black;
+}
+
+
+.logo_bt {
+  width: 180px;
+  height: 60px;
+  border: 1px solid purple;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.banner {
+}
+
+
+
+.middle {
+  position: relative;
+  border: 1px solid blue;
+  
+}
+
+
+
+
+/*유튜브 채널 홍보*/
+/* .middle_banner {
+} */
+
+
+/* .top_banner a {
+  width: 80px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.top_banner a:before,
+.top_banner a:after {
+  position: absolute;
+  content: attr(data-link);
+  width: 100%;
+  transition: 0.3s;
+}
+.top_banner a:before {
+  top: 0;
+  left: 0;
+}
+.top_banner a:after {
+  top: 100%;
+  left: 0;
+  color: #45B649;
+}
+.top_banner a:hover:before {
+  top: -100%;
+}
+.top_banner a:hover:after {
+  top: 0;
+} */
+
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+.dropdown {
+  width: 200px;
+  float: left;
+}
+.dropdown-btn {
+  width: inherit;
+  padding: 10px;
+  font-size: 18px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.dropdown-submenu {
+  display: none;
+  width: inherit;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+}
+.dropdown-submenu a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+.dropdown-submenu a:hover {
+  background-color: #eee;
+}
+.dropdown:hover .dropdown-submenu {
+  display: block;
+} 
